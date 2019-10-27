@@ -1,0 +1,9 @@
+git clone --branch master --single-branch https://github.com/your-name/mslearn-tailspin-spacegame-web.git
+git remote -v
+git remote add upstream https://github.com/MicrosoftDocs/mslearn-tailspin-spacegame-web.git
+
+git checkout -b build-pipeline //makes a new branch
+
+git add azure-pipelines.yml templates/build.yml
+git commit -m "Support build configurations"
+git push origin build-pipeline
