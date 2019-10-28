@@ -1,3 +1,4 @@
+[![Build Status](https://dev.azure.com/mlw0623/Space%20Game%20-%20web%20-%20Pipeline/_apis/build/status/milawo.mslearn-tailspin-spacegame-web?branchName=master)](https://dev.azure.com/mlw0623/Space%20Game%20-%20web%20-%20Pipeline/_build/latest?definitionId=2&branchName=master)
 
 # Contributing
 
