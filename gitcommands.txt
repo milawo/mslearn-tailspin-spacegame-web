@@ -1,3 +1,6 @@
+dotnet build --configuration Release
+dotnet run --configuration Release --no-build --project Tailspin.SpaceGame.Web
+
 git clone --branch master --single-branch https://github.com/your-name/mslearn-tailspin-spacegame-web.git
 git remote -v
 git remote add upstream https://github.com/MicrosoftDocs/mslearn-tailspin-spacegame-web.git
@@ -7,3 +10,23 @@ git checkout -b build-pipeline //makes a new branch
 git add azure-pipelines.yml templates/build.yml
 git commit -m "Support build configurations"
 git push origin build-pipeline
+
+
+git branch -v
+
+
+
+//to check out the master branch
+git checkout master
+
+//To download the latest changes to the remote master branch and merge those changes into your local master branch
+git pull origin master
+
+//To check out your feature branch
+git checkout feature/home-page-text
+
+//Merge your feature branch with master
+git merge master
+
+//When you incorporate changes from the remote repository into your local feature branch, you need to push your local branch back to the remote repository a second time.
+git push origin feature/home-page-text
